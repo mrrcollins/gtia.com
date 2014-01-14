@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Atari 8-bits forever</title><link href="http://gtia.com/" rel="alternate"></link><link href="http://gtia.com/feeds/all.atom.xml" rel="self"></link><id>http://gtia.com/</id><updated>2014-01-13T22:07:00+01:00</updated><entry><title>Ready</title><link href="http://gtia.com/ready.html" rel="alternate"></link><updated>2014-01-13T22:07:00+01:00</updated><author><name>gozar</name></author><id>tag:gtia.com,2014-01-13:ready.html</id><summary type="html">&lt;h1&gt;Ready&lt;/h1&gt;
+&lt;p&gt;This is a test.&lt;/p&gt;</summary><category term="ready"></category></entry></feed>
