@@ -10,13 +10,24 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = ''
+SITEURL = 'http://gtia.com'
+SITENAME = 'Atari 8-bits forever'
 RELATIVE_URLS = False
+
+AUTHOR = 'gozar'
+DEFAULT_DATE = 'fs'
+
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
+STATIC_PATHS = [
+            'extra/CNAME',
+                ]
+EXTRA_PATH_METADATA = {
+            'extra/CNAME': {'path': 'CNAME'},
+                }
 
 # Following items are often useful when publishing
 
