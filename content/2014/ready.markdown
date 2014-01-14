@@ -5,4 +5,5 @@ Slug: ready
 Category: Asides
 Tags: ready
 
-# Hello world
+# Ready
+
