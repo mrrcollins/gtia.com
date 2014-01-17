@@ -16,7 +16,7 @@ RELATIVE_URLS = False
 
 AUTHOR = 'gozar'
 DEFAULT_DATE = 'fs'
-
+THEME = 'theme/pelican-bootstrap3'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
