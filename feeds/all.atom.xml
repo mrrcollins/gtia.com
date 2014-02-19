@@ -11,14 +11,14 @@ characters, *!@#$%&amp;amp;. After you enter your guess with the controller,
 pressing the fire button will have the computer tell you how you did.
 An * means you have the right character in the right place. An O means
 that you have the right character, it's just in the wrong place.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Gozmind Screenshot" src="http://cdn.gtia.com/gozmind.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Gozmind Screenshot" src="http://cdn.gtia.com/gozmind/gozmind.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Bootable atr available here:
 &lt;a href="http://cdn.gtia.com/gozmind-140218.atr"&gt;gozmind-140218.atr&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Program breakdown&lt;/h1&gt;
 &lt;p&gt;I'm not really happy with how the code looks. It's quite a mess. Maybe
 I'll go back and refactor, but for right now it works. :-)&lt;/p&gt;
 &lt;h2&gt;Line 10&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://cdn.gtia.com/gozmind/10.png"&gt;10.png (640×56)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="10.png (640×56)" src="http://cdn.gtia.com/gozmind/10.png" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;DIM C$(14): Holds the characters for the code. It also holds a
  duplicate set in inverse. The inverse is used as a indicator for the
@@ -34,7 +34,7 @@ I'll go back and refactor, but for right now it works. :-)&lt;/p&gt;
 &lt;li&gt;Y=1: What row are we working on&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Line 20&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://cdn.gtia.com/gozmind/20.png"&gt;20.png (640×73)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="20.png (640×73)" src="http://cdn.gtia.com/gozmind/20.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This is my favorite line of the program. To create a random code to
 guess, the program randomly picks a number from 0 to 1295. Why 1295?
 That is 5555 is base 6. We have 6 codes to from which to select, so we
