@@ -21,7 +21,7 @@ that you have the right character, it's just in the wrong place.
 ![Gozmind Screenshot](http://cdn.gtia.com/gozmind/gozmind.png)
 
 Bootable atr available here:
-[gozmind-140218.atr](http://cdn.gtia.com/gozmind/gozmind-140218.atr)
+[gozmind-v140218.atr](http://cdn.gtia.com/gozmind/gozmind-v140218.atr)
 
 # Program breakdown
 
