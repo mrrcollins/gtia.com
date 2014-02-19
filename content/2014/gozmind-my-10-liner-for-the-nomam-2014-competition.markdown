@@ -7,7 +7,7 @@ Tags: contest,tbxl
 
 Over Christmas break I really started to get back into using my Atari
 800xl. I got my MyIDE+Flash set up to work with Action! because I've
-always wanted to learn it. Then I read about the[BASIC Ten-Liners -
+always wanted to learn it. Then I read about the [BASIC Ten-Liners -
 Contest
 2014](http://atariage.com/forums/topic/221948-basic-ten-liners-contest-2014/).
 I had a snow day today, so I am proud to announce GozMind. It's
