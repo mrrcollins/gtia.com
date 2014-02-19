@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GozAtari8</title><link href="http://gtia.com/" rel="alternate"></link><link href="http://gtia.com/feeds/all.atom.xml" rel="self"></link><id>http://gtia.com/</id><updated>2014-02-18T20:10:00+01:00</updated><entry><title>GozMind - My 10 liner for the NOMAM 2014 competition</title><link href="http://gtia.com/2014/02/18/gozmind-my-10-liner-for-the-nomam-2014-competition/" rel="alternate"></link><updated>2014-02-18T20:10:00+01:00</updated><author><name>gozar</name></author><id>tag:gtia.com,2014-02-18:2014/02/18/gozmind-my-10-liner-for-the-nomam-2014-competition/</id><summary type="html">&lt;p&gt;Over Christmas break I really started to get back into using my Atari
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GozAtari8</title><link>http://gtia.com/</link><description></description><atom:link href="http://gtia.com/feed/category/turbobasicxl.rss" rel="self"></atom:link><lastBuildDate>Tue, 18 Feb 2014 20:10:00 +0100</lastBuildDate><item><title>GozMind - My 10 liner for the NOMAM 2014 competition</title><link>http://gtia.com/2014/02/18/gozmind-my-10-liner-for-the-nomam-2014-competition/</link><description>&lt;p&gt;Over Christmas break I really started to get back into using my Atari
 800xl. I got my MyIDE+Flash set up to work with Action! because I've
 always wanted to learn it. Then I read about the &lt;a href="http://atariage.com/forums/topic/221948-basic-ten-liners-contest-2014/"&gt;BASIC Ten-Liners -
 Contest
@@ -86,5 +86,4 @@ is set to * and the position has one added. We then set that position in
 O$ to a . and in the guess to space so it doesn't match any further.&lt;/p&gt;
 &lt;p&gt;The code then goes through the solution one character at a time and
 checks for the right character just in the wrong position. This time, if
-there is a match, it is added as an O to A$.&lt;/p&gt;</summary><category term="contest"></category><category term="tbxl"></category></entry><entry><title>Ready</title><link href="http://gtia.com/2014/01/13/ready/" rel="alternate"></link><updated>2014-01-13T22:07:00+01:00</updated><author><name>gozar</name></author><id>tag:gtia.com,2014-01-13:2014/01/13/ready/</id><summary type="html">&lt;h1&gt;Ready&lt;/h1&gt;
-&lt;p&gt;This is a test.&lt;/p&gt;</summary><category term="ready"></category></entry></feed>
+there is a match, it is added as an O to A$.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">gozar</dc:creator><pubDate>Tue, 18 Feb 2014 20:10:00 +0100</pubDate><guid>tag:gtia.com,2014-02-18:2014/02/18/gozmind-my-10-liner-for-the-nomam-2014-competition/</guid><category>contest</category><category>tbxl</category></item></channel></rss>
