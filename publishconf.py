@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://gtia.com'
-SITENAME = 'Atari 8-bits forever'
+SITENAME = 'GozAtari8'
 RELATIVE_URLS = False
 
 AUTHOR = 'gozar'
