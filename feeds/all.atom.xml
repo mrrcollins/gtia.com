@@ -13,7 +13,7 @@ An * means you have the right character in the right place. An O means
 that you have the right character, it's just in the wrong place.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Gozmind Screenshot" src="http://cdn.gtia.com/gozmind/gozmind.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Bootable atr available here:
-&lt;a href="http://cdn.gtia.com/gozmind-140218.atr"&gt;gozmind-140218.atr&lt;/a&gt;&lt;/p&gt;
+&lt;a href="http://cdn.gtia.com/gozmind/gozmind-140218.atr"&gt;gozmind-140218.atr&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Program breakdown&lt;/h1&gt;
 &lt;p&gt;I'm not really happy with how the code looks. It's quite a mess. Maybe
 I'll go back and refactor, but for right now it works. :-)&lt;/p&gt;
