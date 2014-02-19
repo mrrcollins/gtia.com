@@ -18,7 +18,7 @@ pressing the fire button will have the computer tell you how you did.
 An * means you have the right character in the right place. An O means
 that you have the right character, it's just in the wrong place.
 
-![Gozmind Screenshot](http://cdn.gtia.com/gozmind.png)
+![Gozmind Screenshot](http://cdn.gtia.com/gozmind/gozmind.png)
 
 Bootable atr available here:
 [gozmind-140218.atr](http://cdn.gtia.com/gozmind-140218.atr)
@@ -30,7 +30,7 @@ I'll go back and refactor, but for right now it works. :-)
 
 ## Line 10
 
-[10.png (640×56)](http://cdn.gtia.com/gozmind/10.png)
+![10.png (640×56)](http://cdn.gtia.com/gozmind/10.png)
 
 * DIM C$(14): Holds the characters for the code. It also holds a
  duplicate set in inverse. The inverse is used as a indicator for the
@@ -47,7 +47,7 @@ I'll go back and refactor, but for right now it works. :-)
 
 ## Line 20
 
-[20.png (640×73)](http://cdn.gtia.com/gozmind/20.png)
+![20.png (640×73)](http://cdn.gtia.com/gozmind/20.png)
 
 This is my favorite line of the program. To create a random code to
 guess, the program randomly picks a number from 0 to 1295. Why 1295?
