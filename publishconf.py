@@ -42,12 +42,9 @@ FEED_ALL_RSS = 'feed/index.rss'
 CATEGORY_FEED_RSS = 'feed/category/%s.rss'
 TAG_FEED_RSS = 'feed/tag/%s.rss'
 
-
-
 DELETE_OUTPUT_DIRECTORY = True
-STATIC_PATHS = [
-            'extra/CNAME',
-                ]
+
+STATIC_PATHS = ['extra/CNAME','images',]
 EXTRA_PATH_METADATA = {
             'extra/CNAME': {'path': 'CNAME'},
                 }

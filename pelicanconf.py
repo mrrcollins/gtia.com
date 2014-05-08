@@ -17,6 +17,11 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+STATIC_PATHS = ['extra/CNAME','images',]
+EXTRA_PATH_METADATA = {
+                    'extra/CNAME': {'path': 'CNAME'},
+                }
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
