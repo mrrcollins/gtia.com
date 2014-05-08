@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GozAtari8</title><link>http://gtia.com/</link><description></description><atom:link href="http://gtia.com/feed/tag/programming.rss" rel="self"></atom:link><lastBuildDate>Thu, 13 Mar 2014 19:04:00 +0100</lastBuildDate><item><title>Crack My Luggage Update 1</title><link>http://gtia.com/2014/03/13/crack-my-luggage-update-1/</link><description>&lt;p&gt;In my original upload it didn't quite solve the puzzle correctly, leading to frustrating users. :-) A fixed copy is availabe &lt;a href="http://cdn.gtia.com/2014/CrackMyLuggageV1.atr"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 13 Mar 2014 19:04:00 +0100</pubDate><guid>tag:gtia.com,2014-03-13:2014/03/13/crack-my-luggage-update-1/</guid><category>tbxl</category><category>programming</category></item><item><title>Crack My Luggage - Turbobasic XL ten liner</title><link>http://gtia.com/2014/02/28/crack-my-luggage-turbobasic-xl-ten-liner/</link><description>&lt;p&gt;After seeing &lt;a href="http://www.newbreedsoftware.com/atari/nomam2014/minijong/"&gt;Bill Kendrick's
+Minijong&lt;/a&gt; I
+knew I had to go back and re-work GozMind. I stole.. I mean, borrowed,
+Bill's character redefinition ideas, and replaced the symbols with the
+number 1-6. The result is &lt;strong&gt;Crack My Luggage&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CrackMyLuggage2.png (1022×686)" src="http://cdn.gtia.com/2014/CrackMyLuggage2.png" /&gt;&lt;/p&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Silly me, I've lost the code to my luggage and I'll need you to try to
+crack it so I can get to my stuff! Although I can't remember the code, I
+think it will look familiar as you guess. After you guess, I'll tell you
+how many numbers are right and are in the correct place with the dark
+pegs to the right of the code. Correct numbers but in the wrong place
+will be &lt;strong&gt;O&lt;/strong&gt;s. Order of the pegs have no relationship to the code.&lt;/p&gt;
+&lt;h1&gt;How to Play&lt;/h1&gt;
+&lt;p&gt;You'll need a joystick plugged into joystick 1. After the game starts,
+the screen will be blank for a few moments before show you the game
+board. Use up or down on the joystick to select different numbers, and
+the fire button to submit your guess. The game is over when you
+correctly guess the code or have more than 10 tries. Pressing the fire
+button will start the game over.&lt;/p&gt;
+&lt;h1&gt;Get the file&lt;/h1&gt;
+&lt;p&gt;A self contained &lt;a href="http://cdn.gtia.com/2014/CrackMyLuggage.atr"&gt;disk image is available,
+CrackMyLuggage.atr&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">gozar</dc:creator><pubDate>Fri, 28 Feb 2014 15:22:00 +0100</pubDate><guid>tag:gtia.com,2014-02-28:2014/02/28/crack-my-luggage-turbobasic-xl-ten-liner/</guid><category>tbxl</category><category>programming</category></item></channel></rss>
