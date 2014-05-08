@@ -6,6 +6,8 @@ AUTHOR = u'gozar'
 SITENAME = u'Power without the Price'
 SITEURL = ''
 
+MARKUP = (('rst', 'md', 'markdown'))
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
