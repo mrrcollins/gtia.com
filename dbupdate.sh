@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOPOST=/home/gozar/Dropbox/Elements/gtia.com/*.markdown
-SITE=/home/gozar/Development/gtia.com
+TOPOST=/Users/gozar/Dropbox/Elements/gtia.com/*.markdown
+SITE=/Users/gozar/Development/gtia.com
 
 shopt -s nullglob
 
