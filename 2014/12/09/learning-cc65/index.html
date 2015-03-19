@@ -14,7 +14,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Learning cc65"/>
             <meta property="og:url" content="http://gtia.com/2014/12/09/learning-cc65/"/>
-            <meta property="og:description" content="Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse: /************************************************ * Crack My Luggage ..."/>
+            <meta property="og:description" content="Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse: :::c /******* * Crack My ..."/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://gtia.com/theme/css/bootstrap.min.css" type="text/css"/>
@@ -95,60 +95,59 @@
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <p>Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:</p>
-<div class="highlight"><pre><span class="cm">/************************************************ </span>
-<span class="cm"> * Crack My Luggage - C version</span>
-<span class="cm"> *</span>
-<span class="cm"> * My attempt to rewrite my ten liner for the</span>
-<span class="cm"> * ABBUC 2014 Ten Line competition for C, while</span>
-<span class="cm"> * learning C.</span>
-<span class="cm"> *</span>
-<span class="cm"> * 12/9/2014</span>
-<span class="cm"> ************************************************/</span>
-
-<span class="p">#</span><span class="k">include</span> <span class="o">&lt;</span><span class="n">atari</span><span class="p">.</span><span class="n">h</span><span class="o">&gt;</span>
-<span class="p">#</span><span class="k">include</span> <span class="o">&lt;</span><span class="n">conio</span><span class="p">.</span><span class="n">h</span><span class="o">&gt;</span>
-<span class="p">#</span><span class="k">include</span> <span class="o">&lt;</span><span class="n">peekpoke</span><span class="p">.</span><span class="n">h</span><span class="o">&gt;</span>
-
-<span class="k">typedef</span> <span class="k">unsigned</span> <span class="n">char</span> <span class="k">byte</span><span class="p">;</span>
-
-<span class="k">void</span> <span class="n">setup</span><span class="p">();</span>
-
-<span class="k">int</span> <span class="n">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="n">setup</span><span class="p">();</span>
-    <span class="n">gotoxy</span><span class="p">(</span><span class="mh">2</span><span class="p">,</span><span class="mh">0</span><span class="p">);</span>
-    <span class="n">cprintf</span><span class="p">(</span><span class="s">&quot;crack my luggage&quot;</span><span class="p">);</span>
-
-    <span class="n">cgetc</span><span class="p">();</span>                    <span class="c1">// Don&#39;t end the program until a key is pressed</span>
-    <span class="k">return</span><span class="p">(</span><span class="mh">0</span><span class="p">);</span>                  <span class="c1">// All done!</span>
-<span class="p">}</span>
-
-<span class="k">void</span> <span class="n">setup</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">unsigned</span> <span class="k">int</span> <span class="n">ch</span><span class="p">,</span><span class="n">i</span><span class="p">;</span>
-    <span class="k">byte</span> <span class="n">a</span><span class="p">;</span>
-
-    <span class="n">_graphics</span><span class="p">(</span><span class="mh">18</span><span class="p">);</span>
-    <span class="no">POKE</span><span class="p">(</span><span class="mh">559</span><span class="p">,</span><span class="mh">0</span><span class="p">);</span>                <span class="c1">// Turn off screen</span>
-    <span class="n">ch</span><span class="o">=</span><span class="no">PEEK</span><span class="p">(</span><span class="mh">106</span><span class="p">)</span><span class="o">-</span><span class="mh">16</span><span class="p">;</span>
-    <span class="no">POKE</span><span class="p">(</span><span class="mh">756</span><span class="p">,</span><span class="n">ch</span><span class="p">);</span>
-    <span class="n">ch</span><span class="o">=</span><span class="n">ch</span><span class="o">*</span><span class="mh">256</span><span class="p">;</span>
-
-    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mh">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mh">1024</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// Redfine character set, make it inverse</span>
-        <span class="n">a</span><span class="o">=</span><span class="mh">127</span><span class="o">-</span><span class="no">PEEK</span><span class="p">(</span><span class="mh">57344</span><span class="no">L</span><span class="o">+</span><span class="n">i</span><span class="p">);</span>
-        <span class="c1">//if (a&lt;0) { a=0; }</span>
-        <span class="no">POKE</span><span class="p">(</span><span class="n">ch</span><span class="o">+</span><span class="n">i</span><span class="p">,</span><span class="n">a</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mh">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mh">8</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>   <span class="c1">// Set space to hash pattern</span>
-        <span class="no">POKE</span><span class="p">(</span><span class="n">ch</span><span class="o">+</span><span class="n">i</span><span class="p">,</span><span class="mh">85</span><span class="o">+</span><span class="p">(</span><span class="mh">85</span><span class="o">*</span><span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="mh">2</span><span class="p">)));</span>
-        <span class="no">POKE</span><span class="p">(</span><span class="n">ch</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="mh">80</span><span class="p">,</span><span class="mh">127</span><span class="o">-</span><span class="no">PEEK</span><span class="p">(</span><span class="mh">58016</span><span class="no">L</span><span class="o">+</span><span class="n">i</span><span class="p">));</span>
-    <span class="p">}</span>
-
-    <span class="no">POKEW</span><span class="p">(</span><span class="mh">708</span><span class="p">,</span><span class="mh">2710</span><span class="p">);</span>            <span class="c1">// Set colors</span>
-    <span class="no">POKEW</span><span class="p">(</span><span class="mh">710</span><span class="p">,</span><span class="mh">3868</span><span class="p">);</span>
-    <span class="no">POKE</span><span class="p">(</span><span class="mh">559</span><span class="p">,</span><span class="mh">34</span><span class="p">);</span>               <span class="c1">// Turn screen back on</span>
-<span class="p">}</span>
+<p>:::c
+/<strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*<em><em> 
+ * Crack My Luggage - C version
+ </em>
+ * My attempt to rewrite my ten liner for the
+ * ABBUC 2014 Ten Line competition for C, while
+ * learning C.
+ </em>
+ * 12/9/2014
+ </em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong>***/</p>
+<h1>include <atari.h></h1>
+<h1>include <conio.h></h1>
+<h1>include <peekpoke.h></h1>
+<p>typedef unsigned char byte;</p>
+<p>void setup();</p>
+<p>int main()
+{
+    setup();
+    gotoxy(2,0);
+    cprintf("crack my luggage");</p>
+<div class="highlight"><pre>cgetc();                    // Don&#39;t end the program until a key is pressed
+return(0);                  // All done!
 </pre></div>
+
+
+<p>}</p>
+<p>void setup() {
+    unsigned int ch,i;
+    byte a;</p>
+<div class="highlight"><pre>_graphics(18);
+POKE(559,0);                // Turn off screen
+ch=PEEK(106)-16;
+POKE(756,ch);
+ch=ch*256;
+
+for (i = 0; i &lt; 1024; i++) { // Redfine character set, make it inverse
+    a=127-PEEK(57344L+i);
+    //if (a&lt;0) { a=0; }
+    POKE(ch+i,a);
+}
+
+for (i = 0; i &lt; 8; i++) {   // Set space to hash pattern
+    POKE(ch+i,85+(85*(i%2)));
+    POKE(ch+i+80,127-PEEK(58016L+i));
+}
+
+POKEW(708,2710);            // Set colors
+POKEW(710,3868);
+POKE(559,34);               // Turn screen back on
+</pre></div>
+
+
+<p>}</p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -182,8 +181,13 @@
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/xf551/">
-                                xf551
+                            <a href="http://gtia.com/tag/colecovision/">
+                                colecovision
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://gtia.com/tag/xbox/">
+                                xbox
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -192,8 +196,8 @@
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/ready/">
-                                ready
+                            <a href="http://gtia.com/tag/adam/">
+                                adam
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -202,18 +206,23 @@
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
+                            <a href="http://gtia.com/tag/ready/">
+                                ready
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://gtia.com/tag/xf551/">
+                                xf551
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://gtia.com/tag/emulation/">
+                                emulation
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
                             <a href="http://gtia.com/tag/diskdrive/">
                                 diskdrive
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/adam/">
-                                adam
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/colecovision/">
-                                colecovision
                             </a>
                         </li>
         </ul>
