@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GozAtari8</title><link>http://gtia.com/</link><description></description><atom:link href="http://gtia.com/feed/tag/cc65.rss" rel="self"></atom:link><lastBuildDate>Tue, 09 Dec 2014 13:36:00 +0100</lastBuildDate><item><title>Learning cc65</title><link>http://gtia.com/2014/12/09/learning-cc65/</link><description>&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;p&gt;:::c
-/&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;em&gt;&lt;em&gt; 
+&lt;p&gt;:::c&lt;/p&gt;
+&lt;p&gt;/&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;em&gt;&lt;em&gt; 
  * Crack My Luggage - C version
  &lt;/em&gt;
  * My attempt to rewrite my ten liner for the
@@ -52,4 +52,5 @@ POKE(559,34);               // Turn screen back on
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;}&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 09 Dec 2014 13:36:00 +0100</pubDate><guid>tag:gtia.com,2014-12-09:2014/12/09/learning-cc65/</guid><category>cc65</category></item></channel></rss>
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 09 Dec 2014 13:36:00 +0100</pubDate><guid>tag:gtia.com,2014-12-09:2014/12/09/learning-cc65/</guid><category>cc65</category></item></channel></rss>
