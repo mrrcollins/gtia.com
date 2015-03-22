@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GozAtari8</title><link>http://gtia.com/</link><description></description><atom:link href="http://gtia.com/feed/index.rss" rel="self"></atom:link><lastBuildDate>Tue, 09 Dec 2014 13:36:00 +0100</lastBuildDate><item><title>Learning cc65</title><link>http://gtia.com/2014/12/09/learning-cc65/</link><description>&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;p&gt;:::c&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;/&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;*&lt;em&gt;&lt;em&gt; 
  * Crack My Luggage - C version
  &lt;/em&gt;
