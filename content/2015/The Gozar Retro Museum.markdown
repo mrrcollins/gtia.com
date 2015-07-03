@@ -11,6 +11,5 @@ equipment, so I figured it would be cool to use Hype and create an
 online museum of my stuff. So I give you:
 
 [The Gozar Retro
-Museum](https://dl.dropboxusercontent.com/spa/uxxlddzwinr819o/Exports/GozMuseum/GozMuseum.html)
+Museum](http://gtia.com/GozMuseum/GozMuseum.html)
 
-That's not the final URL, it's just a temporary one in Dropbox.
