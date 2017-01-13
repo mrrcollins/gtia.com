@@ -14,7 +14,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="GozMind - My 10 liner for the NOMAM 2014 competition"/>
             <meta property="og:url" content="http://gtia.com/2014/02/18/gozmind-my-10-liner-for-the-nomam-2014-competition/"/>
-            <meta property="og:description" content="Over Christmas break I really started to get back into using my Atari 800xl. I got my MyIDE+Flash set up to work with Action! because I've always wanted to learn it. Then I read about the BASIC Ten-Liners - Contest 2014. I had a snow day today, so I ..."/>
+            <meta property="og:description" content="Over Christmas break I really started to get back into using my Atari 800xl. I got my MyIDE+Flash set up to work with Action! because I've always wanted to learn it. Then I read about the BASIC Ten-Liners - Contest 2014. I had a snow day today, so I am …"/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://gtia.com/theme/css/bootstrap.min.css" type="text/css"/>
@@ -114,14 +114,14 @@ characters, *!@#$%&amp;. After you enter your guess with the controller,
 pressing the fire button will have the computer tell you how you did.
 An * means you have the right character in the right place. An O means
 that you have the right character, it's just in the wrong place.</p>
-<p><img alt="Gozmind Screenshot" src="http://cdn.gtia.com/gozmind/gozmind.png" /></p>
+<p><img alt="Gozmind Screenshot" src="http://cdn.gtia.com/gozmind/gozmind.png"></p>
 <p>Bootable atr available here:
 <a href="http://cdn.gtia.com/gozmind/gozmind-v140218.atr">gozmind-v140218.atr</a></p>
 <h1>Program breakdown</h1>
 <p>I'm not really happy with how the code looks. It's quite a mess. Maybe
 I'll go back and refactor, but for right now it works. :-)</p>
 <h2>Line 10</h2>
-<p><img alt="10.png (640×56)" src="http://cdn.gtia.com/gozmind/10.png" /></p>
+<p><img alt="10.png (640×56)" src="http://cdn.gtia.com/gozmind/10.png"></p>
 <ul>
 <li>DIM C$(14): Holds the characters for the code. It also holds a
  duplicate set in inverse. The inverse is used as a indicator for the
@@ -137,7 +137,7 @@ I'll go back and refactor, but for right now it works. :-)</p>
 <li>Y=1: What row are we working on</li>
 </ul>
 <h2>Line 20</h2>
-<p><img alt="20.png (640×73)" src="http://cdn.gtia.com/gozmind/20.png" /></p>
+<p><img alt="20.png (640×73)" src="http://cdn.gtia.com/gozmind/20.png"></p>
 <p>This is my favorite line of the program. To create a random code to
 guess, the program randomly picks a number from 0 to 1295. Why 1295?
 That is 5555 is base 6. We have 6 codes from which to select, so we
@@ -146,7 +146,7 @@ base 6. Since strings in Atari Basic start with one, we have to add one
 to each character. Each digit is converted to a string and then place in
 S$. The graphics mode is selected and GOZMIND is printed at the top.</p>
 <h2>Line 30</h2>
-<p><img alt="30.png (640×54)" src="http://cdn.gtia.com/gozmind/30.png" /></p>
+<p><img alt="30.png (640×54)" src="http://cdn.gtia.com/gozmind/30.png"></p>
 <ul>
 <li>G$="7777":C=1:G=VAL(G$(C,C)):LC=C:A$="....": Sets up the start for the</li>
 <li>player. C is the current character the player is working on.</li>
@@ -156,8 +156,8 @@ S$. The graphics mode is selected and GOZMIND is printed at the top.</p>
 the what characters are right, once the player makes a complete guess. </li>
 </ul>
 <h2>Line 40 &amp; 50</h2>
-<p><img alt="40.png (640×55)" src="http://cdn.gtia.com/gozmind/40.png" /></p>
-<p><img alt="50.png (640×67)" src="http://cdn.gtia.com/gozmind/50.png" /></p>
+<p><img alt="40.png (640×55)" src="http://cdn.gtia.com/gozmind/40.png"></p>
+<p><img alt="50.png (640×67)" src="http://cdn.gtia.com/gozmind/50.png"></p>
 <p>Reads the joystick, and adjusts the variables related to the current
 code and position. If statements are used to keep the values in range.
 It adjusts the character in G$ depending on what the player has
@@ -165,21 +165,21 @@ selected. The repeat loop is waiting for a guess in all 4 slots and for
 the player to push the button. Once satisfied, execute the SOLVE
 procedure.</p>
 <h2>Line 60</h2>
-<p><img alt="60.png (640×53)" src="http://cdn.gtia.com/gozmind/60.png" /></p>
-<p><img alt="70.png (640×54)" src="http://cdn.gtia.com/gozmind/70.png" /></p>
+<p><img alt="60.png (640×53)" src="http://cdn.gtia.com/gozmind/60.png"></p>
+<p><img alt="70.png (640×54)" src="http://cdn.gtia.com/gozmind/70.png"></p>
 <p>Prints how well the player did on the right side of the screen. It them
 increments Y to go to the next row and checks to see if the player has
 solved the puzzle yet or if the player has exhausted all 10 tries. If
 the game has ended, wait until the player to press the button to start a
 new game. Else, continue playing.</p>
 <h2>Line 80 PROC S2S</h2>
-<p><img alt="80.png (640×53)" src="http://cdn.gtia.com/gozmind/80.png" /></p>
+<p><img alt="80.png (640×53)" src="http://cdn.gtia.com/gozmind/80.png"></p>
 <p>Converts the numbers in G$ to the characters to print on the screen. The
 computer only deals with numbers, but we need to covert to characters
 for the player.</p>
 <h2>Line 90 &amp; 100 PROC SOLVE</h2>
-<p><img alt="90.png (640×54)" src="http://cdn.gtia.com/gozmind/90.png" /></p>
-<p><img alt="100.png (640×54)" src="http://cdn.gtia.com/gozmind/100.png" /></p>
+<p><img alt="90.png (640×54)" src="http://cdn.gtia.com/gozmind/90.png"></p>
+<p><img alt="100.png (640×54)" src="http://cdn.gtia.com/gozmind/100.png"></p>
 <p>The toughest code to write. O$ is a copy of the solution, because we are
 going to destroy the variable as we go. First it finds out which character selected
 by the player is correct and in the correct place. The for loop goes
@@ -212,91 +212,6 @@ there is a match, it is added as an O to A$.</p>
 
 
                 <li class="list-group-item"><a href="http://gtia.com/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
-                        <li class="list-group-item tag-1">
-                            <a href="http://gtia.com/tag/tbxl/">
-                                tbxl
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
-                            <a href="http://gtia.com/tag/programming/">
-                                programming
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
-                            <a href="http://gtia.com/tag/vbxe/">
-                                vbxe
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/adam/">
-                                adam
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/castlecrisis/">
-                                castlecrisis
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/bbs/">
-                                bbs
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/u1m/">
-                                u1m
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/emulation/">
-                                emulation
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/cc65/">
-                                cc65
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/ready/">
-                                ready
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/diskdrive/">
-                                diskdrive
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/contest/">
-                                contest
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/vga/">
-                                vga
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/xf551/">
-                                xf551
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/xbox/">
-                                xbox
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/colecovision/">
-                                colecovision
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://gtia.com/tag/museum/">
-                                museum
-                            </a>
-                        </li>
         </ul>
     </section>
 </aside>        </div>
