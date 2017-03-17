@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://gtia.com'
+SITEURL = 'https://gtia.com'
 SITENAME = 'GozAtari8'
 RELATIVE_URLS = False
 

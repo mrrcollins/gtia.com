@@ -3,7 +3,7 @@ Date: 2016-03-05 19:33:22
 Author: mr.rcollins
 A couple of weeks ago I went in the hunt for a better monitor for my MegaSTE and ended up using my old Gateway 2000 monitor.
 
-![My new setup](http://cdn.gtia.com/pics/2016/IMG_9686.JPG)
+![My new setup](https://cdn.gtia.com/pics/2016/IMG_9686.JPG)
 
 Don't let the GW2k name fool you, this is a 15" Sony Trinitron monitor, capable of 1024x768 at 75Hz. It was a pretty sweet monitor back in 1994, and still is today.
 

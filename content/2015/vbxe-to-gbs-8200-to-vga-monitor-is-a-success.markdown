@@ -7,7 +7,7 @@ Tags: vbxe,vga
 
 After much troubleshooting, I now have VGA output from an 800XL!
 
-![VBXE in Action](http://cdn.gtia.com/pics/2015/IMG_9078-2.jpeg)
+![VBXE in Action](//cdn.gtia.com/pics/2015/IMG_9078-2.jpeg)
 
 The VBXE plugs into the 5 pin connector on the GBS-8200, which then goes out as VGA. Unfortunately, the Apple monitor doesn't have a VGA plug, so I have an adapter to convert it. Looks very good!
 

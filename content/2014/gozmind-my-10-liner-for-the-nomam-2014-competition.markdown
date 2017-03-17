@@ -18,10 +18,10 @@ pressing the fire button will have the computer tell you how you did.
 An * means you have the right character in the right place. An O means
 that you have the right character, it's just in the wrong place.
 
-![Gozmind Screenshot](http://cdn.gtia.com/gozmind/gozmind.png)
+![Gozmind Screenshot](https://cdn.gtia.com/gozmind/gozmind.png)
 
 Bootable atr available here:
-[gozmind-v140218.atr](http://cdn.gtia.com/gozmind/gozmind-v140218.atr)
+[gozmind-v140218.atr](https://cdn.gtia.com/gozmind/gozmind-v140218.atr)
 
 # Program breakdown
 
@@ -30,7 +30,7 @@ I'll go back and refactor, but for right now it works. :-)
 
 ## Line 10
 
-![10.png (640×56)](http://cdn.gtia.com/gozmind/10.png)
+![10.png (640×56)](https://cdn.gtia.com/gozmind/10.png)
 
 * DIM C$(14): Holds the characters for the code. It also holds a
  duplicate set in inverse. The inverse is used as a indicator for the
@@ -47,7 +47,7 @@ I'll go back and refactor, but for right now it works. :-)
 
 ## Line 20
 
-![20.png (640×73)](http://cdn.gtia.com/gozmind/20.png)
+![20.png (640×73)](https://cdn.gtia.com/gozmind/20.png)
 
 This is my favorite line of the program. To create a random code to
 guess, the program randomly picks a number from 0 to 1295. Why 1295?
@@ -59,7 +59,7 @@ S$. The graphics mode is selected and GOZMIND is printed at the top.
 
 ## Line 30
 
-![30.png (640×54)](http://cdn.gtia.com/gozmind/30.png)
+![30.png (640×54)](https://cdn.gtia.com/gozmind/30.png)
 
 * G$="7777":C=1:G=VAL(G$(C,C)):LC=C:A$="....": Sets up the start for the
 * player. C is the current character the player is working on.
@@ -70,9 +70,9 @@ the what characters are right, once the player makes a complete guess.
 
 ## Line 40 & 50
 
-![40.png (640×55)](http://cdn.gtia.com/gozmind/40.png)
+![40.png (640×55)](https://cdn.gtia.com/gozmind/40.png)
 
-![50.png (640×67)](http://cdn.gtia.com/gozmind/50.png)
+![50.png (640×67)](https://cdn.gtia.com/gozmind/50.png)
 
 Reads the joystick, and adjusts the variables related to the current
 code and position. If statements are used to keep the values in range.
@@ -83,9 +83,9 @@ procedure.
 
 ## Line 60
 
-![60.png (640×53)](http://cdn.gtia.com/gozmind/60.png)
+![60.png (640×53)](https://cdn.gtia.com/gozmind/60.png)
 
-![70.png (640×54)](http://cdn.gtia.com/gozmind/70.png)
+![70.png (640×54)](https://cdn.gtia.com/gozmind/70.png)
 
 Prints how well the player did on the right side of the screen. It them
 increments Y to go to the next row and checks to see if the player has
@@ -95,7 +95,7 @@ new game. Else, continue playing.
 
 ## Line 80 PROC S2S
 
-![80.png (640×53)](http://cdn.gtia.com/gozmind/80.png)
+![80.png (640×53)](https://cdn.gtia.com/gozmind/80.png)
 
 Converts the numbers in G$ to the characters to print on the screen. The
 computer only deals with numbers, but we need to covert to characters
@@ -103,9 +103,9 @@ for the player.
 
 ## Line 90 & 100 PROC SOLVE
 
-![90.png (640×54)](http://cdn.gtia.com/gozmind/90.png)
+![90.png (640×54)](https://cdn.gtia.com/gozmind/90.png)
 
-![100.png (640×54)](http://cdn.gtia.com/gozmind/100.png)
+![100.png (640×54)](https://cdn.gtia.com/gozmind/100.png)
 
 The toughest code to write. O$ is a copy of the solution, because we are
 going to destroy the variable as we go. First it finds out which character selected
