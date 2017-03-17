@@ -64,14 +64,14 @@ characters, *!@#$%&amp;amp;. After you enter your guess with the controller,
 pressing the fire button will have the computer tell you how you did.
 An * means you have the right character in the right place. An O means
 that you have the right character, it's just in the wrong place.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Gozmind Screenshot" src="http://cdn.gtia.com/gozmind/gozmind.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Gozmind Screenshot" src="https://cdn.gtia.com/gozmind/gozmind.png"&gt;&lt;/p&gt;
 &lt;p&gt;Bootable atr available here:
-&lt;a href="http://cdn.gtia.com/gozmind/gozmind-v140218.atr"&gt;gozmind-v140218.atr&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://cdn.gtia.com/gozmind/gozmind-v140218.atr"&gt;gozmind-v140218.atr&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Program breakdown&lt;/h1&gt;
 &lt;p&gt;I'm not really happy with how the code looks. It's quite a mess. Maybe
 I'll go back and refactor, but for right now it works. :-)&lt;/p&gt;
 &lt;h2&gt;Line 10&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="10.png (640×56)" src="http://cdn.gtia.com/gozmind/10.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="10.png (640×56)" src="https://cdn.gtia.com/gozmind/10.png"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;DIM C$(14): Holds the characters for the code. It also holds a
  duplicate set in inverse. The inverse is used as a indicator for the
@@ -87,7 +87,7 @@ I'll go back and refactor, but for right now it works. :-)&lt;/p&gt;
 &lt;li&gt;Y=1: What row are we working on&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Line 20&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="20.png (640×73)" src="http://cdn.gtia.com/gozmind/20.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="20.png (640×73)" src="https://cdn.gtia.com/gozmind/20.png"&gt;&lt;/p&gt;
 &lt;p&gt;This is my favorite line of the program. To create a random code to
 guess, the program randomly picks a number from 0 to 1295. Why 1295?
 That is 5555 is base 6. We have 6 codes from which to select, so we
@@ -96,7 +96,7 @@ base 6. Since strings in Atari Basic start with one, we have to add one
 to each character. Each digit is converted to a string and then place in
 S$. The graphics mode is selected and GOZMIND is printed at the top.&lt;/p&gt;
 &lt;h2&gt;Line 30&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="30.png (640×54)" src="http://cdn.gtia.com/gozmind/30.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="30.png (640×54)" src="https://cdn.gtia.com/gozmind/30.png"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;G$="7777":C=1:G=VAL(G$(C,C)):LC=C:A$="....": Sets up the start for the&lt;/li&gt;
 &lt;li&gt;player. C is the current character the player is working on.&lt;/li&gt;
@@ -106,8 +106,8 @@ S$. The graphics mode is selected and GOZMIND is printed at the top.&lt;/p&gt;
 the what characters are right, once the player makes a complete guess. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Line 40 &amp;amp; 50&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="40.png (640×55)" src="http://cdn.gtia.com/gozmind/40.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="50.png (640×67)" src="http://cdn.gtia.com/gozmind/50.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="40.png (640×55)" src="https://cdn.gtia.com/gozmind/40.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="50.png (640×67)" src="https://cdn.gtia.com/gozmind/50.png"&gt;&lt;/p&gt;
 &lt;p&gt;Reads the joystick, and adjusts the variables related to the current
 code and position. If statements are used to keep the values in range.
 It adjusts the character in G$ depending on what the player has
@@ -115,21 +115,21 @@ selected. The repeat loop is waiting for a guess in all 4 slots and for
 the player to push the button. Once satisfied, execute the SOLVE
 procedure.&lt;/p&gt;
 &lt;h2&gt;Line 60&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="60.png (640×53)" src="http://cdn.gtia.com/gozmind/60.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="70.png (640×54)" src="http://cdn.gtia.com/gozmind/70.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="60.png (640×53)" src="https://cdn.gtia.com/gozmind/60.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="70.png (640×54)" src="https://cdn.gtia.com/gozmind/70.png"&gt;&lt;/p&gt;
 &lt;p&gt;Prints how well the player did on the right side of the screen. It them
 increments Y to go to the next row and checks to see if the player has
 solved the puzzle yet or if the player has exhausted all 10 tries. If
 the game has ended, wait until the player to press the button to start a
 new game. Else, continue playing.&lt;/p&gt;
 &lt;h2&gt;Line 80 PROC S2S&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="80.png (640×53)" src="http://cdn.gtia.com/gozmind/80.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="80.png (640×53)" src="https://cdn.gtia.com/gozmind/80.png"&gt;&lt;/p&gt;
 &lt;p&gt;Converts the numbers in G$ to the characters to print on the screen. The
 computer only deals with numbers, but we need to covert to characters
 for the player.&lt;/p&gt;
 &lt;h2&gt;Line 90 &amp;amp; 100 PROC SOLVE&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="90.png (640×54)" src="http://cdn.gtia.com/gozmind/90.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="100.png (640×54)" src="http://cdn.gtia.com/gozmind/100.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="90.png (640×54)" src="https://cdn.gtia.com/gozmind/90.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="100.png (640×54)" src="https://cdn.gtia.com/gozmind/100.png"&gt;&lt;/p&gt;
 &lt;p&gt;The toughest code to write. O$ is a copy of the solution, because we are
 going to destroy the variable as we go. First it finds out which character selected
 by the player is correct and in the correct place. The for loop goes
