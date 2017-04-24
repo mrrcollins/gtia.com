@@ -1,6 +1,8 @@
 Title: I should have bought a mono VGA cable for my MegaSTE a long time ago
 Date: 2016-03-05 19:33:22
 Author: mr.rcollins
+Category: Hardware
+
 A couple of weeks ago I went in the hunt for a better monitor for my MegaSTE and ended up using my old Gateway 2000 monitor.
 
 ![My new setup](https://cdn.gtia.com/pics/2016/IMG_9686.JPG)
