@@ -27,11 +27,11 @@ equipment, so I figured it would be cool to use Hype and create an
 online museum of my stuff. So I give you:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://gtia.com/GozMuseum/GozMuseum.html"&gt;The Gozar Retro
 Museum&lt;/a&gt;&lt;/p&gt;</content><category term="museum"></category></entry><entry><title>Learning cc65</title><link href="https://gtia.com/2014/12/09/learning-cc65/" rel="alternate"></link><published>2014-12-09T13:36:00+01:00</published><updated>2014-12-09T13:36:00+01:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2014-12-09:/2014/12/09/learning-cc65/</id><summary type="html">&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt to rewrite my ten liner for the&lt;/span&gt;
@@ -41,9 +41,9 @@ Museum&lt;/a&gt;&lt;/p&gt;</content><category term="museum"></category></entry><
 &lt;span class="cm"&gt; * 12/9/2014&lt;/span&gt;
 &lt;span class="cm"&gt; ************************************************/&lt;/span&gt;
 
-&lt;span class="cp"&gt;#include &amp;lt;atari.h&amp;gt;&lt;/span&gt;
-&lt;span class="cp"&gt;#include &amp;lt;conio.h&amp;gt;&lt;/span&gt;
-&lt;span class="cp"&gt;#include &amp;lt;peekpoke.h&amp;gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;atari.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;conio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;peekpoke.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 
 &lt;span class="k"&gt;typedef&lt;/span&gt; &lt;span class="kt"&gt;unsigned&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="n"&gt;byte&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 

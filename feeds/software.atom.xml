@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>GozAtari8 - Software</title><link href="https://gtia.com/" rel="alternate"></link><link href="https://gtia.com/feeds/software.atom.xml" rel="self"></link><id>https://gtia.com/</id><updated>2016-01-18T20:37:00+01:00</updated><entry><title>Trying to get a BBS running</title><link href="https://gtia.com/2016/01/18/trying-to-get-a-bbs-running/" rel="alternate"></link><published>2016-01-18T20:37:00+01:00</published><updated>2016-01-18T20:37:00+01:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2016-01-18:/2016/01/18/trying-to-get-a-bbs-running/</id><summary type="html">&lt;p&gt;Over the last few days, I've attempted to get a BBS up and going on one of my 8-bits. The original plan was to find a BBS that would run under SDX. I have an older MyIDE+Flash cart with a 256MB IDE drive which isn't being used right now …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Over the last few days, I've attempted to get a BBS up and going on one of my 8-bits. The original plan was to find a BBS that would run under SDX. I have an older MyIDE+Flash cart with a 256MB IDE drive which isn't being used right now, so I thought that would be good to get a BBS up on. Unfortunately, I haven't found any BBS software that supports SDX. &lt;/p&gt;
 &lt;p&gt;Since I've been using an 800XL with a VBXE as my daily driver I thought I would put my Atari 800 with an Incognito installed into service running a BBS. Again, I couldn't get Carina II to run (hangs after MOE starts) or BBS Express Pro 4.0b (complains that CMDPATH.DAT isn't found, even though it is). &lt;/p&gt;
 &lt;p&gt;The plan is now to take a couple of days off and approach the problem fresh.&lt;/p&gt;</content><category term="bbs"></category></entry><entry><title>Learning cc65</title><link href="https://gtia.com/2014/12/09/learning-cc65/" rel="alternate"></link><published>2014-12-09T13:36:00+01:00</published><updated>2014-12-09T13:36:00+01:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2014-12-09:/2014/12/09/learning-cc65/</id><summary type="html">&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt to rewrite my ten liner for the&lt;/span&gt;
@@ -16,9 +16,9 @@
 &lt;span class="cm"&gt; * 12/9/2014&lt;/span&gt;
 &lt;span class="cm"&gt; ************************************************/&lt;/span&gt;
 
-&lt;span class="cp"&gt;#include &amp;lt;atari.h&amp;gt;&lt;/span&gt;
-&lt;span class="cp"&gt;#include &amp;lt;conio.h&amp;gt;&lt;/span&gt;
-&lt;span class="cp"&gt;#include &amp;lt;peekpoke.h&amp;gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;atari.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;conio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;peekpoke.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 
 &lt;span class="k"&gt;typedef&lt;/span&gt; &lt;span class="kt"&gt;unsigned&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="n"&gt;byte&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 

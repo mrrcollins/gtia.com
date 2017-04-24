@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>GozAtari8 - cc65</title><link>https://gtia.com/</link><description></description><lastBuildDate>Tue, 09 Dec 2014 13:36:00 +0100</lastBuildDate><item><title>Learning cc65</title><link>https://gtia.com/2014/12/09/learning-cc65/</link><description>&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 09 Dec 2014 13:36:00 +0100</pubDate><guid isPermaLink="false">tag:gtia.com,2014-12-09:/2014/12/09/learning-cc65/</guid><category>cc65</category></item></channel></rss>
