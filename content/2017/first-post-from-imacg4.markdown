@@ -1,6 +1,6 @@
 Title: First post from my iMac G4
 Author: mr.rcollins
-Date: 2016-01-18 20:37
+Date: 2017-04-24 15:37
 Category: Hardware
 Tags: ppc,powerpc,g4,imacg4
 
