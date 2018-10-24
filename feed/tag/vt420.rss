@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>GozAtari8 - vt420</title><link>https://gtia.com/</link><description></description><lastBuildDate>Mon, 22 Oct 2018 20:37:00 +0200</lastBuildDate><item><title>Trying out my VT420</title><link>https://gtia.com/2018/10/22/trying-out-my-vt420/</link><description>&lt;p&gt;&lt;img alt="VT420" src="https://cdn.gtia.com/pics/2018/IMG_5687-2.jpeg"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>GozAtari8 - vt420</title><link>https://gtia.com/</link><description></description><lastBuildDate>Tue, 23 Oct 2018 19:53:00 +0200</lastBuildDate><item><title>Continuing playing around with the VT420</title><link>https://gtia.com/2018/10/23/continuing-playing-around-with-the-vt420/</link><description>&lt;p&gt;I've got everything working pretty well, with only a few nagging 
+problems. The biggest is the screen corrupting of vim when running 
+through tmux. The problem is there with screen also. If I use vim 
+outside of tmux or screen, it works fine. Inside of tmux or screen? 
+Problems. :-( Maybe …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 23 Oct 2018 19:53:00 +0200</pubDate><guid isPermaLink="false">tag:gtia.com,2018-10-23:/2018/10/23/continuing-playing-around-with-the-vt420/</guid><category>vt420</category></item><item><title>Trying out my VT420</title><link>https://gtia.com/2018/10/22/trying-out-my-vt420/</link><description>&lt;p&gt;&lt;img alt="VT420" src="https://cdn.gtia.com/pics/2018/IMG_5687-2.jpeg"&gt;&lt;/p&gt;
 &lt;p&gt;I picked up a couple of DEC VT420 terminals from a school auction about 
 20 years ago. Unfortunately, I never did anything with them because I 
 didn't have any way to hook them up. The VT420 terminal uses an MMJ 
