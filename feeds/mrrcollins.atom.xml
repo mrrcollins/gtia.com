@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GozAtari8 - mr.rcollins</title><link href="https://gtia.com/" rel="alternate"></link><link href="https://gtia.com/feeds/mrrcollins.atom.xml" rel="self"></link><id>https://gtia.com/</id><updated>2018-10-23T19:53:00+02:00</updated><entry><title>Continuing playing around with the VT420</title><link href="https://gtia.com/2018/10/23/continuing-playing-around-with-the-vt420/" rel="alternate"></link><published>2018-10-23T19:53:00+02:00</published><updated>2018-10-23T19:53:00+02:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2018-10-23:/2018/10/23/continuing-playing-around-with-the-vt420/</id><summary type="html">&lt;p&gt;I've got everything working pretty well, with only a few nagging 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GozAtari8 - mr.rcollins</title><link href="https://gtia.com/" rel="alternate"></link><link href="https://gtia.com/feeds/mrrcollins.atom.xml" rel="self"></link><id>https://gtia.com/</id><updated>2018-11-10T20:37:00+01:00</updated><entry><title>Two LCD VGA monitors that work with my Amiga 500</title><link href="https://gtia.com/2018/11/10/two-lcd-vga-monitors-that-work-with-my-amiga-500/" rel="alternate"></link><published>2018-11-10T20:37:00+01:00</published><updated>2018-11-10T20:37:00+01:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2018-11-10:/2018/11/10/two-lcd-vga-monitors-that-work-with-my-amiga-500/</id><summary type="html">&lt;p&gt;&lt;img alt="Nec Multisync 1970VX" src="https://cdn.gtia.com/pics/2018/IMG_5794-2.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;I recently purchased a Nec Multisync 1970VX VGA monitor for use on my older RGB computers (Atari ST/STE/Amiga/CoCo 3/800XL with VBXE). It works well with the Amiga. Unfortunately, I can't get it to show up with my Mega STe. I haven't tried it with any of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Nec Multisync 1970VX" src="https://cdn.gtia.com/pics/2018/IMG_5794-2.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;I recently purchased a Nec Multisync 1970VX VGA monitor for use on my older RGB computers (Atari ST/STE/Amiga/CoCo 3/800XL with VBXE). It works well with the Amiga. Unfortunately, I can't get it to show up with my Mega STe. I haven't tried it with any of my other STs, but I'm thinking that the cable may not be right. I ordered a cable from Best and will try it after it arrives.&lt;/p&gt;
+&lt;p&gt;The screen looks really good with the Amiga 500 though. &lt;/p&gt;
+&lt;p&gt;A year or so ago I purchased a Nec Accusync LCD 71V after reading it was compatible with the 15KHz refresh of these older computers. At the time I couldn't get a machine to work with it, so I assumed it wouldn't. Well, I tried it again and it worked with the Amiga. I have no idea what I was doing wrong before. I prefer the 1970VX though, since it is a 19" screen vs the 17" of the 71V.&lt;/p&gt;
+&lt;p&gt;I'm beginning to miss CRTs. Hopefully, in the future, scan doublers and upscalers will take advantage of the higher resolution screens that are available, making the CRT discussion moot.&lt;/p&gt;</content><category term="amiga"></category><category term="monitor"></category><category term="vga"></category></entry><entry><title>Continuing playing around with the VT420</title><link href="https://gtia.com/2018/10/23/continuing-playing-around-with-the-vt420/" rel="alternate"></link><published>2018-10-23T19:53:00+02:00</published><updated>2018-10-23T19:53:00+02:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2018-10-23:/2018/10/23/continuing-playing-around-with-the-vt420/</id><summary type="html">&lt;p&gt;I've got everything working pretty well, with only a few nagging 
 problems. The biggest is the screen corrupting of vim when running 
 through tmux. The problem is there with screen also. If I use vim 
 outside of tmux or screen, it works fine. Inside of tmux or screen? 
@@ -45,11 +50,11 @@ plugged into my Portmaster terminal server and I can computer like it's
 &lt;p&gt;&lt;img alt="VBXE in Action" src="//cdn.gtia.com/pics/2015/IMG_9078-2.jpeg"&gt;&lt;/p&gt;
 &lt;p&gt;The VBXE plugs into the 5 pin connector on the GBS-8200, which then goes out as VGA. Unfortunately, the Apple monitor doesn't have a VGA plug, so I have an adapter to convert it. Looks very good!&lt;/p&gt;
 &lt;p&gt;Now to install a Ultimate 1MB and the stereo upgrade...&lt;/p&gt;</content><category term="vbxe"></category><category term="vga"></category></entry><entry><title>Learning cc65</title><link href="https://gtia.com/2014/12/09/learning-cc65/" rel="alternate"></link><published>2014-12-09T13:36:00+01:00</published><updated>2014-12-09T13:36:00+01:00</updated><author><name>mr.rcollins</name></author><id>tag:gtia.com,2014-12-09:/2014/12/09/learning-cc65/</id><summary type="html">&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cm"&gt;/************************************************ &lt;/span&gt;
 &lt;span class="cm"&gt; * Crack My Luggage - C version&lt;/span&gt;
 &lt;span class="cm"&gt; *&lt;/span&gt;
 &lt;span class="cm"&gt; * My attempt to rewrite my ten liner for the&lt;/span&gt;
@@ -59,9 +64,9 @@ plugged into my Portmaster terminal server and I can computer like it's
 &lt;span class="cm"&gt; * 12/9/2014&lt;/span&gt;
 &lt;span class="cm"&gt; ************************************************/&lt;/span&gt;
 
-&lt;span class="cp"&gt;#include &amp;amp;lt;atari.h&amp;amp;gt;&lt;/span&gt;
-&lt;span class="cp"&gt;#include &amp;amp;lt;conio.h&amp;amp;gt;&lt;/span&gt;
-&lt;span class="cp"&gt;#include &amp;amp;lt;peekpoke.h&amp;amp;gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;amp;lt;atari.h&amp;amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;amp;lt;conio.h&amp;amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;amp;lt;peekpoke.h&amp;amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 
 &lt;span class="k"&gt;typedef&lt;/span&gt; &lt;span class="kt"&gt;unsigned&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="n"&gt;byte&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
