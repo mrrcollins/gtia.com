@@ -3,3 +3,4 @@ output/
 *.pyc
 .DS_Store
 *~
+*.pid
