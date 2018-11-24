@@ -9,6 +9,7 @@ if [ "${TITLE}" != "" ]; then
     echo "Title: ${TITLE}" > ${OUT}
     echo "Author: gozar" >> ${OUT}
     echo "Date: ${DATE}" >> ${OUT}
+    echo "Slug: ${SLUG}" >> ${OUT}
     echo -e "Category: \nTags: \nStatus: draft\n\n" >> ${OUT}
 
     vim ${OUT}
