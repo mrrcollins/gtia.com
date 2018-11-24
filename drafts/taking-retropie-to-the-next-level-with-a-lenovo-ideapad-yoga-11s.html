@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title>Trying to get a BBS running</title>
+    <title>Taking RetroPie to the next level with a Lenovo IdeaPad Yoga 11s</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -12,9 +12,9 @@
     <!-- Open Graph tags -->
 
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="Trying to get a BBS running"/>
-            <meta property="og:url" content="https://gtia.com/2016/01/18/trying-to-get-a-bbs-running/"/>
-            <meta property="og:description" content="Over the last few days, I've attempted to get a BBS up and going on one of my 8-bits. The original plan was to find a BBS that would run under SDX. I have an older MyIDE+Flash cart with a 256MB IDE drive which isn't being used right now …"/>
+            <meta property="og:title" content="Taking RetroPie to the next level with a Lenovo IdeaPad Yoga 11s"/>
+            <meta property="og:url" content="https://gtia.com/drafts/taking-retropie-to-the-next-level-with-a-lenovo-ideapad-yoga-11s.html"/>
+            <meta property="og:description" content="With the Christmas season coming, and knowing that I would be spending time away from home, I struggled with how to bring some retro along with me. In the past I've taken a modded Xbox and a Raspberry Pi, but both of them require me to commandeer one of the …"/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="https://gtia.com/theme/css/bootstrap.min.css" type="text/css"/>
@@ -47,13 +47,13 @@
                         <li >
                             <a href="https://gtia.com/category/asides/">Asides</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="https://gtia.com/category/hardware/">Hardware</a>
                         </li>
                         <li >
                             <a href="https://gtia.com/category/other/">Other</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="https://gtia.com/category/software/">Software</a>
                         </li>
                         <li >
@@ -75,10 +75,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://gtia.com/2016/01/18/trying-to-get-a-bbs-running/"
+                    <a href="https://gtia.com/drafts/taking-retropie-to-the-next-level-with-a-lenovo-ideapad-yoga-11s.html"
                        rel="bookmark"
-                       title="Permalink to Trying to get a BBS running">
-                        Trying to get a BBS running
+                       title="Permalink to Taking RetroPie to the next level with a Lenovo IdeaPad Yoga 11s">
+                        Taking RetroPie to the next level with a Lenovo IdeaPad Yoga 11s
                     </a>
                 </h1>
             </header>
@@ -88,18 +88,43 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="icon-calendar"></i>Mon 18 January 2016
+        <i class="icon-calendar"></i>Sat 24 November 2018
     </span>
 
 
 
 <span class="label label-default">Tags</span>
-	<a href="https://gtia.com/tag/bbs/">bbs</a>
+	<a href="https://gtia.com/tag/retro/">retro</a>
+        /
+	<a href="https://gtia.com/tag/raspberrypi/">raspberrypi</a>
+        /
+	<a href="https://gtia.com/tag/retropie/">retropie</a>
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>Over the last few days, I've attempted to get a BBS up and going on one of my 8-bits. The original plan was to find a BBS that would run under SDX. I have an older MyIDE+Flash cart with a 256MB IDE drive which isn't being used right now, so I thought that would be good to get a BBS up on. Unfortunately, I haven't found any BBS software that supports SDX. </p>
-<p>Since I've been using an 800XL with a VBXE as my daily driver I thought I would put my Atari 800 with an Incognito installed into service running a BBS. Again, I couldn't get Carina II to run (hangs after MOE starts) or BBS Express Pro 4.0b (complains that CMDPATH.DAT isn't found, even though it is). </p>
-<p>The plan is now to take a couple of days off and approach the problem fresh.</p>
+                <p>With the Christmas season coming, and knowing that I would be spending time away from home, I struggled with how to bring some retro along with me. In the past I've taken a modded Xbox and a Raspberry Pi, but both of them require me to commandeer one of the TVs, which usually is another boss battle in and of itself. While trying to think of a solution, I spied my Lenovo IdeaPad Yoga 11s, which was my laptop for several years until I replaced it with a Chromebook last year.</p>
+<p>The Yoga has an 11" screen, i5, 8GB of ram and a 256GB SSD. On specs alone it blows the OG Xbox and Raspberry Pi out of the water. More importantly, it had its own screen in addition to HDMI out, which meant I could use it by itself or with a TV, depending on the family temperament. I just needed to get RetroPie installed. </p>
+<h1>Installing Ubuntu 18.04</h1>
+<p>There are several distributions to choose from, and this particular machine ran MATE when I used it as a laptop. I decided to install Ubuntu 18.04, for really no reason in particular. If you're curious on how to install Ubuntu, search around, there is no shortage of installation directions and videos.</p>
+<p>This step took less than 15 minutes. After the installation, I was pleasantly surprised that the wireless worked. In the past I had to download and compile the wifi driver, but now it worked out of the box!</p>
+<p>I set up the default user as <em>retro</em>, with a password of <em>retro</em>, and automatic log in. This way anyone could start playing without bugging me about passwords.</p>
+<h1>Installing RetroPie</h1>
+<p>I followed the <a href="TK">instructions in the RetroPie wiki on installing RetroPie under Debian/Ubuntu</a>. It was pretty straightforward, but took forever. This step took a few hours to complete.</p>
+<p>For the games, I had already downloaded a RetroPie distribution for the Pi and put it on an SD card. For the Yoga, I popped the SD card into the built in card reader and dragged the roms to their respective folders.</p>
+<h1>Creating a desktop icon</h1>
+<p>Muggles aren't going to want to start a terminal and type <em>emulationstation</em> to start up RetroPie, so I created a desktop icon. From a terminal I typed <code>nano ~/Desktop/RetroPie.desktop</code>. This launched the nano editor, in which I typed the following:</p>
+<div class="highlight"><pre><span></span>TK
+</pre></div>
+
+
+<h1>Controllers</h1>
+<p>What fun is playing RetroPie from the keyboard? Not fun at all. I grabbed several controllers I already had and configured them in RetroPie. This included a couple of USB Xbox 360 controllers, and Xbox One controller connected over USB, and an OG Xbox controller with a USB adapter. I couldn't get RetroPie to recognize my cheap OG Xbox knock off controllers, so I'll have to work on those at a later date. Since the Yoga only has two USB ports, I also grabbed an USB hub. This is only temporary because I would like to get a smaller USB travel hub.</p>
+<h1>Traveling case</h1>
+<p>To carry the Yoga and controllers to its destination requires a milk crate. I'm going to be looking out for something a little more travel friendly, but this will work for now. The problem is the controllers. They are big and bulky. If I wanted to spend some money I could pick up some travel controllers, but I'm not going to.</p>
+<p>I would love a hardshell case which would let me put the Yoga in tablet mode and mount it in the lid while the case holds a wireless keyboard and the controllers, but that's not going to happen.</p>
+<h1>In Use</h1>
+<p>The N64 emulator played Mario Kart 64 flawlessly, with no slowdowns or glitches. Almost all of the games that we played worked well, except for some of the arcade roms, such as Street Fighter II. I'll need to investigate further. One nice feature of using the Yoga is the ability to put the laptop into tablet mode and put it on the side for vertical games such as Frogger and Raiden.</p>
+<h1>Future modifications</h1>
+<p>I don't have Atari 8-bit computer functionality, or any computer functionality installed. To complete the set up, it would be nice to be able to play Atari 8-bit, Atari ST, and Amiga games. I also need to troubleshoot Street Fighter II.</p>
             </div>
             <!-- /.entry-content -->
             <script src="https://utteranc.es/client.js"
