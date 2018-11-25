@@ -49,6 +49,10 @@ EXTRA_PATH_METADATA = {
             'extra/CNAME': {'path': 'CNAME'},
                 }
 
+LINKS = (
+            ('RSS', "feeds/all.atom.xml")
+            )
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""

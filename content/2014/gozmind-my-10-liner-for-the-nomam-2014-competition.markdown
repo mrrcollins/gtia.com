@@ -2,7 +2,7 @@ Title: GozMind - My 10 liner for the NOMAM 2014 competition
 Author: gozar
 Date: 2014-02-18 20:10
 Slug: gozmind-my-10-liner-for-the-nomam-2014-competition
-Category: TurbobasicXL
+Category: Software
 Tags: contest,tbxl
 
 Over Christmas break I really started to get back into using my Atari

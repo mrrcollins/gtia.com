@@ -6,7 +6,7 @@ Category: Hardware
 Tags: retro,raspberrypi,retropie
 Status: draft
 
-With the Christmas season coming, and knowing that I would be spending time away from home, I struggled with how to bring some retro along with me. In the past I've taken a modded Xbox and a Raspberry Pi, but both of them require me to commandeer one of the TVs, which usually is another boss battle in and of itself. While trying to think of a solution, I spied my Lenovo IdeaPad Yoga 11s, which was my laptop for several years until I replaced it with a Chromebook last year.
+With the Christmas season coming, and knowing that I would be spending time away from home, I struggled with how to bring some retro along with me. In the past I've taken a modded Xbox and a Raspberry Pi to family gatherings, but both of them require me to commandeer one of the TVs, which usually is another boss battle in and of itself. While trying to think of a solution, I spied my Lenovo IdeaPad Yoga 11s, which was my laptop for several years until I replaced it with a Chromebook last year.
 
 The Yoga has an 11" screen, i5, 8GB of ram and a 256GB SSD. On specs alone it blows the OG Xbox and Raspberry Pi out of the water. More importantly, it had its own screen in addition to HDMI out, which meant I could use it by itself or with a TV, depending on the family temperament. I just needed to get RetroPie installed. 
 
@@ -20,9 +20,9 @@ I set up the default user as *retro*, with a password of *retro*, and automatic 
 
 # Installing RetroPie
 
-I followed the [instructions in the RetroPie wiki on installing RetroPie under Debian/Ubuntu](TK). It was pretty straightforward, but took forever. This step took a few hours to complete.
+I followed the [instructions in the RetroPie wiki on installing RetroPie under Debian/Ubuntu](https://github.com/RetroPie/RetroPie-Setup/wiki/Debian). It was pretty straightforward, but took forever. This step took a few hours to complete.
 
-For the games, I had already downloaded a RetroPie distribution for the Pi and put it on an SD card. For the Yoga, I popped the SD card into the built in card reader and dragged the roms to their respective folders.
+For the games, I had already downloaded a RetroPie distribution for the Pi and put it on an SD card. I popped the SD card into the built in card reader and dragged the roms to their respective folders.
 
 # Creating a desktop icon
 
@@ -34,7 +34,7 @@ TK
 
 # Controllers
 
-What fun is playing RetroPie from the keyboard? Not fun at all. I grabbed several controllers I already had and configured them in RetroPie. This included a couple of USB Xbox 360 controllers, and Xbox One controller connected over USB, and an OG Xbox controller with a USB adapter. I couldn't get RetroPie to recognize my cheap OG Xbox knock off controllers, so I'll have to work on those at a later date. Since the Yoga only has two USB ports, I also grabbed an USB hub. This is only temporary because I would like to get a smaller USB travel hub.
+What fun is playing RetroPie from the keyboard? Not fun at all. I grabbed several controllers I already had and configured them in RetroPie. This included a couple of USB Xbox 360 controllers, and an Xbox One controller connected over USB, and an OG Xbox controller with a USB adapter. I couldn't get RetroPie to recognize my cheap OG Xbox knock off controllers, so I'll have to work on those at a later date. Since the Yoga only has two USB ports, I also grabbed an USB hub. This is only temporary because I would like to get a smaller USB travel hub.
 
 # Traveling case
 
@@ -48,4 +48,4 @@ The N64 emulator played Mario Kart 64 flawlessly, with no slowdowns or glitches.
 
 # Future modifications
 
-I don't have Atari 8-bit computer functionality, or any computer functionality installed. To complete the set up, it would be nice to be able to play Atari 8-bit, Atari ST, and Amiga games. I also need to troubleshoot Street Fighter II.
+I don't have Atari 8-bit computer functionality, or any retro computer functionality installed. To complete the set up, it would be nice to be able to play Atari 8-bit, Atari ST, and Amiga games. I also need to troubleshoot Street Fighter II.

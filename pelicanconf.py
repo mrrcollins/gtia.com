@@ -22,6 +22,8 @@ EXTRA_PATH_METADATA = {
                     'extra/CNAME': {'path': 'CNAME'},
                 }
 
+DISPLAY_TAGS_ON_SIDEBAR = True
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
@@ -29,8 +31,11 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+        ('RSS','/feeds/all.atom.xml'),
+        )
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
