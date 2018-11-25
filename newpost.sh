@@ -2,7 +2,7 @@
 
 TITLE="$@"
 SLUG=$(echo -n "${TITLE}" | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
-OUT=content/$(date +%Y)/${SLUG}.markdown
+OUT=content/drafts/${SLUG}.markdown
 DATE=$(date +"%Y-%m-%d %H:%M")
 
 if [ "${TITLE}" != "" ]; then
