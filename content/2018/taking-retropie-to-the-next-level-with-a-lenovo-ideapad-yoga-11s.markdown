@@ -4,9 +4,11 @@ Date: 2018-11-24 10:43
 Slug: taking-retropie-to-the-next-level-with-a-lenovo-ideapad-yoga-11s
 Category: Hardware
 Tags: retro,raspberrypi,retropie
-Status: draft
+Status: published
 
 With the Christmas season coming, and knowing that I would be spending time away from home, I struggled with how to bring some retro along with me. In the past I've taken a modded Xbox and a Raspberry Pi to family gatherings, but both of them require me to commandeer one of the TVs, which usually is another boss battle in and of itself. While trying to think of a solution, I spied my Lenovo IdeaPad Yoga 11s, which was my laptop for several years until I replaced it with a Chromebook last year.
+
+![RetroYoga](https://cdn.gtia.com/pics/2018/RetroYoga-2018-11-25-800x.jpeg)
 
 The Yoga has an 11" screen, i5, 8GB of ram and a 256GB SSD. On specs alone it blows the OG Xbox and Raspberry Pi out of the water. More importantly, it had its own screen in addition to HDMI out, which meant I could use it by itself or with a TV, depending on the family temperament. I just needed to get RetroPie installed. 
 
@@ -29,7 +31,16 @@ For the games, I had already downloaded a RetroPie distribution for the Pi and p
 Muggles aren't going to want to start a terminal and type *emulationstation* to start up RetroPie, so I created a desktop icon. From a terminal I typed ```nano ~/Desktop/RetroPie.desktop```. This launched the nano editor, in which I typed the following:
 
 ```
-TK
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/bin/emulationstation
+Name=RetroPie
+Comment=
+
 ```
 
 # Controllers
