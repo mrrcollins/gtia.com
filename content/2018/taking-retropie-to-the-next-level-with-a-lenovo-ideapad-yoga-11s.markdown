@@ -1,6 +1,6 @@
 Title: Taking RetroPie to the next level with a Lenovo IdeaPad Yoga 11s
 Author: gozar
-Date: 2018-11-24 10:43
+Date: 2018-11-25 20:10
 Slug: taking-retropie-to-the-next-level-with-a-lenovo-ideapad-yoga-11s
 Category: Hardware
 Tags: retro,raspberrypi,retropie
