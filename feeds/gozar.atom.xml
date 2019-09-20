@@ -214,6 +214,5 @@ is set to * and the position has one added. We then set that position in
 O$ to a . and in the guess to space so it doesn't match any further.&lt;/p&gt;
 &lt;p&gt;The code then goes through the solution one character at a time and
 checks for the right character just in the wrong position. This time, if
-there is a match, it is added as an O to A$.&lt;/p&gt;</content><category term="contest"></category><category term="tbxl"></category></entry><entry><title>Ready</title><link href="https://gtia.com/2014/01/13/ready/" rel="alternate"></link><published>2014-01-13T22:07:00+01:00</published><updated>2014-01-13T22:07:00+01:00</updated><author><name>gozar</name></author><id>tag:gtia.com,2014-01-13:/2014/01/13/ready/</id><summary type="html">&lt;h1&gt;Ready&lt;/h1&gt;
-&lt;p&gt;This is a test.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Ready&lt;/h1&gt;
+there is a match, it is added as an O to A$.&lt;/p&gt;</content><category term="contest"></category><category term="tbxl"></category></entry><entry><title>Ready</title><link href="https://gtia.com/2014/01/13/ready/" rel="alternate"></link><published>2014-01-13T22:07:00+01:00</published><updated>2014-01-13T22:07:00+01:00</updated><author><name>gozar</name></author><id>tag:gtia.com,2014-01-13:/2014/01/13/ready/</id><content type="html">&lt;h1&gt;Ready&lt;/h1&gt;
 &lt;p&gt;This is a test.&lt;/p&gt;</content><category term="ready"></category></entry></feed>
