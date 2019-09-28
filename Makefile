@@ -1,5 +1,6 @@
 PY=python
 PELICAN=pelican
+PELICAN=/home/gozar/Development/pelican/bin/pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
