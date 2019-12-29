@@ -10,6 +10,8 @@ Status: published
 
 I was a backer of the original Kickstarter project for the $9 CHIP computer. Over the past several years I accumulated 8 CHIPs and 3 PocketCHIPs. Suffice to say, I'm sitting pretty with CHIPs. 
 
+![My CHIPmodem, with optional battery](https://cdn.gtia.com/pics/2019/CHIPmodem-2019-12-29-800x.jpeg)
+
 My first project with the CHIP computers was setting up [Shairplay](https://github.com/juhovh/shairplay) on one, and hooking it to a 1970s console stereo. The result is a pretty good sounding wireless speaker that I play music from my iPhone or iTunes on the computer.
 
 My next project was to use a CHIP as a wifi modem for my retro computers. I wanted to use the CHIP instead of the Arduino based wifi modem for a couple of reasons. One, I have several CHIPs. Two, I wanted to be able to not only use the modem to connect to BBSes, but I also wanted to be able to ssh to hosts. Finally, I have a couple of old Macs (such as the SE/30) that do not have network cards. Using a CHIP as a PPP server I would be able to give these Macs (and my STs) an IP connections. With the modifications FozzTexx did to [tcpser](https://github.com/FozzTexx/tcpser), I would have a really cool wifi modem that could connect my retro computers to just about anything.
