@@ -3,8 +3,8 @@ Title: My Atari collection posted on Reddit for fanboy week
 Author: gozar
 Date: 2019-09-27 20:06
 Slug: my-atari-collection-posted-on-reddit-for-fanboy-week
-Category: 
-Tags:
+Category: Hardware
+Tags: atari,reddit
 Status: published
 ...
 
