@@ -9,7 +9,7 @@ import os
 import sys
 sys.path.append(os.curdir)
 
-SITENAME = 'GozAtari8'
+SITENAME = 'The Atari and Retro Site of Goz'
 
 TIMEZONE = 'America/New_York'
 
@@ -59,3 +59,6 @@ LINKS = (
 #GOOGLE_ANALYTICS = ""
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# Theme settings
+HEADER_COVER = 'images/Atari800-header.jpg'
