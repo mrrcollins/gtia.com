@@ -1,99 +1,118 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:og="http://ogp.me/ns#"
-      xmlns:fb="https://www.facebook.com/2008/fbml">
+<html lang="en">
+
 <head>
-    <title>Learning cc65</title>
-    <!-- Using the latest rendering mode for IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <!-- Open Graph tags -->
 
-            <meta property="og:type" content="article"/>
-            <meta property="og:title" content="Learning cc65"/>
-            <meta property="og:url" content="https://gtia.com/2014/12/09/learning-cc65/"/>
-            <meta property="og:description" content="Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse: /************************************************ * Crack My Luggage - C version * * My attempt …"/>
+  <title>Learning cc65</title>
 
-    <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://gtia.com/theme/css/bootstrap.min.css" type="text/css"/>
-    <link href="https://gtia.com/theme/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://gtia.com/theme/css/pygments.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://gtia.com/theme/css/style.css" type="text/css"/>
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="//code.jquery.com/jquery.js"></script>
 
-        <link href="https://gtia.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="GozAtari8 ATOM Feed"/>
-        <link href="https://gtia.com/feed/index.rss" type="application/atom+xml" rel="alternate"
-              title="GozAtari8 RSS Feed"/>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="https://gtia.com" rel="canonical" />
 
+  <!-- Feed -->
+        <link href="https://gtia.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Atari and Retro Site of Goz Full Atom Feed" />
+
+  <link href="https://gtia.com/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://gtia.com/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="https://gtia.com/2014/12/09/learning-cc65/" rel="canonical" />
+
+        <meta name="description" content="Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner...">
+
+        <meta name="author" content="mr.rcollins">
+
+        <meta name="tags" content="cc65">
+
+        <meta property="og:locale" content="" />
+    <meta property="og:site_name" content="The Atari and Retro Site of Goz" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Atari and Retro Site of Goz" />
+    <meta property="og:description" content="View the blog." />
+    <meta property="og:url" content="https://gtia.com" />
+      <meta property="og:image" content="https://gtia.com/images/Atari800-header.jpg" />
+
+  <meta property="og:type" content="article">
+            <meta property="article:author" content="https://gtia.com/author/mrrcollins/">
+  <meta property="og:url" content="https://gtia.com/2014/12/09/learning-cc65/">
+  <meta property="og:title" content="Learning cc65">
+  <meta property="article:published_time" content="2014-12-09 13:36:00-05:00">
+            <meta property="og:description" content="Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner...">
+
+            <meta property="og:image" content="https://gtia.com/images/Atari800-header.jpg">
 </head>
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="https://gtia.com" class="navbar-brand">GozAtari8</a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                        <li >
-                            <a href="https://gtia.com/category/asides/">Asides</a>
-                        </li>
-                        <li >
-                            <a href="https://gtia.com/category/hardware/">Hardware</a>
-                        </li>
-                        <li >
-                            <a href="https://gtia.com/category/other/">Other</a>
-                        </li>
-                        <li class="active">
-                            <a href="https://gtia.com/category/software/">Software</a>
-                        </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://gtia.com/archives.html"><i class="icon-th-list"></i>Archives</a></li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+
+
+    </ul>
+  </div>
 </nav>
-<!-- /.navbar -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="https://gtia.com/2014/12/09/learning-cc65/"
-                       rel="bookmark"
-                       title="Permalink to Learning cc65">
-                        Learning cc65
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="icon-calendar"></i>Tue 09 December 2014
-    </span>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
 
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://gtia.com" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Learning cc65</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://gtia.com/author/mrrcollins/">Mr.rcollins</a>
+            | <time datetime="Tue 09 December 2014">Tue 09 December 2014</time>
+        </span>
+        <!-- TODO : Modified check -->
+        
+            <div class="post-cover cover" style="background-image: url('images/Atari800-header.jpg')">            
+        
+      </div>
+    </header>    
 
+  <section id="wrapper">
+    <a class="hidden-close"></a>
 
-<span class="label label-default">Tags</span>
-	<a href="https://gtia.com/tag/cc65/">cc65</a>
-</footer><!-- /.post-info -->                    </div>
-                </div>
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
                 <p>Tonight I've taken my first plunge into finally learning cc65 and writing software for the A8. I'm attempting to convert my ten liner from the ABBUC 2014 contest over to c. Here's the first part, it redefine's the character set to be inverse:</p>
 <div class="highlight"><pre><span></span><span class="cm">/************************************************ </span>
 <span class="cm"> * Crack My Luggage - C version</span>
@@ -149,54 +168,53 @@
     <span class="n">POKE</span><span class="p">(</span><span class="mi">559</span><span class="p">,</span><span class="mi">34</span><span class="p">);</span>               <span class="c1">// Turn screen back on</span>
 <span class="p">}</span>
 </pre></div>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Learning cc65&amp;url=https://gtia.com/2014/12/09/learning-cc65/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://gtia.com/2014/12/09/learning-cc65/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://gtia.com/2014/12/09/learning-cc65/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://gtia.com/tag/cc65/">cc65</a>                </aside>
+
+                <div class="clear"></div>
+
+ 
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
             </div>
-            <!-- /.entry-content -->
-            <script src="https://utteranc.es/client.js"
-                repo="mrrcollins/gtiacomments"
-                issue-term="title"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-            </script>
         </article>
-    </section>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+  
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
 
-        </div>
-        <div class="col-lg-3 well well-sm" id="sidebar">
-
-<aside>
-    <section>
-        <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h4><i class="icon-home icon-large"></i>Social</h4></li>
-                    <li class="list-group-item"><a href="/feeds/all.atom.xml"><i
-                            class="icon-RSS-sign icon-large"></i>RSS
-                    </a></li>
-
-
-
-                <li class="list-group-item"><a href="https://gtia.com/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
-        </ul>
-    </section>
-</aside>        </div>
-    </div>
-</div>
-<footer>
-    <div class="container">
-        <hr>
-        <p class="pull-right"><i class="icon-arrow-up"></i> <a href="#">Back to top</a></p>
-
-
-        <p>&copy; 2019 gozar &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
-            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
-            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></p>
-    </div>
-</footer>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://gtia.com/theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="https://gtia.com/theme/js/respond.min.js"></script>
-
-
+  <script type="text/javascript" src="https://gtia.com/theme/js/script.js"></script>
+  
 </body>
 </html>
