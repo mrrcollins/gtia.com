@@ -44,6 +44,13 @@ PAGE_SAVE_AS = ('{slug}/index.html')
 
 DELETE_OUTPUT_DIRECTORY = True
 
+# Pagination
+DEFAULT_PAGINATION = 3
+PAGINATION_PATTERNS = (
+    (1, '{base_name}/', '{base_name}/index.html'),
+    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
+)
+
 STATIC_PATHS = ['extra/CNAME','images',]
 EXTRA_PATH_METADATA = {
             'extra/CNAME': {'path': 'CNAME'},
@@ -53,6 +60,16 @@ LINKS = (
             ('RSS', "feeds/all.atom.xml")
             )
 
+AUTHORS_BIO = {
+        "gozar": {
+            "name":"Ryan 'Gozar' Collins",
+            "website": "https://ryancollins.org",
+            "image": "https://gtia.com/images/gozavatar.png",
+            "location": "Earth",
+            "bio": "This site is full of Atari and Retro goodness."
+            }
+        }
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
@@ -61,4 +78,4 @@ LINKS = (
 RELATIVE_URLS = True
 
 # Theme settings
-HEADER_COVER = 'images/Atari800-header.jpg'
+HEADER_COVER = '/images/Atari800-header.jpg'
