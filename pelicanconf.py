@@ -66,7 +66,7 @@ AUTHORS_BIO = {
             "website": "https://ryancollins.org",
             "image": "https://gtia.com/images/gozavatar.png",
             "location": "Earth",
-            "bio": "This site is full of Atari and Retro goodness."
+            "bio": "What, me worry?"
             }
         }
 
