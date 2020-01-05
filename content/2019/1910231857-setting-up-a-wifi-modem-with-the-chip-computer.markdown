@@ -79,7 +79,7 @@ A couple minutes later and I had a *tcpser* executable in the directory. I'll mo
 
 I made a cable that consists mostly of dongles since I didn't have a 9-pin female to female adapter. The cable connected the CHIP to my MegaSTe as my first test. It worked right away!
 
-Tcpser works exactly like a Hayes compatible modem would work. To dial, use `atd` and the IP address of the host. To hang up, use `ath`. Depending on your terminal program, you may be able add ip addresses and port numbers and dial out like the old days. If your terminal program can handle ip addresses or domain names, you can pass an address book when [starting tcpser at the command line](https://github.com/FozzTexx/tcpser). 
+Tcpser works exactly like a Hayes compatible modem would work. To dial, use `atd` and the IP address of the host. To hang up, use `ath`. Depending on your terminal program, you may be able add ip addresses and port numbers and dial out like the old days. If your terminal program can't handle ip addresses or domain names, you can pass an address book when [starting tcpser at the command line](https://github.com/FozzTexx/tcpser). 
 
 I started writing this article in Vim on my Atari MegaSTe. At 9600 baud it is pretty responsive, except for when it comes time to scroll. My Vim setup is configured for writing, using the [Goyo](https://github.com/junegunn/goyo.vim), [vim-markdown](https://github.com/plasticboy/vim-markdown), and [Pencil](https://github.com/reedes/vim-pencil) plugins.
 
