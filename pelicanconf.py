@@ -45,7 +45,7 @@ PAGE_SAVE_AS = ('{slug}/index.html')
 DELETE_OUTPUT_DIRECTORY = True
 
 # Pagination
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 10
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
@@ -69,6 +69,15 @@ AUTHORS_BIO = {
             "bio": "What, me worry?"
             }
         }
+
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (
+    ('About', '/about/'),
+    ('Hardware', '/category/hardware/'),
+    ('Software', '/category/software/')
+    )
 
 # Following items are often useful when publishing
 
