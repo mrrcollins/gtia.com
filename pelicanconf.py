@@ -17,7 +17,7 @@ MARKUP = (('rst', 'md', 'markdown'))
 
 AUTHOR = 'gozar'
 DEFAULT_DATE = 'fs'
-THEME = 'pelican-attila'
+THEME = 'attila-git'
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
@@ -87,4 +87,4 @@ MENUITEMS = (
 RELATIVE_URLS = True
 
 # Theme settings
-HEADER_COVER = '/images/Atari800-header.jpg'
+HOME_COVER = '/images/Atari800-header.jpg'

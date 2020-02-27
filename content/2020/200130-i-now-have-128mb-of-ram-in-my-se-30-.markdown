@@ -5,6 +5,7 @@ Date: 2020-01-30 20:10
 Slug: i-now-have-128mb-of-ram-in-my-se-30-
 Category: Hardware 
 Tags: se30
+Cover: https://cdn.gtia.com/pics/2020/128MB-2020-01-30-800x.jpeg
 Status: published
 ...
 
