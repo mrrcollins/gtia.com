@@ -88,3 +88,4 @@ RELATIVE_URLS = True
 
 # Theme settings
 HOME_COVER = '/images/Atari800-header.jpg'
+HEADER_COVER = '/images/Atari800-header.jpg'
