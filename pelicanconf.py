@@ -17,7 +17,7 @@ MARKUP = (('rst', 'md', 'markdown'))
 
 AUTHOR = 'gozar'
 DEFAULT_DATE = 'fs'
-THEME = 'attila-git'
+THEME = './theme/attila-goz'
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
