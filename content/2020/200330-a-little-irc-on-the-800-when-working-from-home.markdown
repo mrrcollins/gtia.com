@@ -5,7 +5,7 @@ Date: 2020-03-30 19:35
 Slug: a-little-irc-on-the-800-when-working-from-home
 Cover: https://cdn.gtia.com/pics/2020/wfhsetup-2020-03-30-800x.jpeg
 Category: Hardware
-Tags: atari,irc
+Tags: atari,irc,wfh
 Status: published
 ...
 

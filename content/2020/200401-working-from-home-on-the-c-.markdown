@@ -4,8 +4,8 @@ Author: gozar
 Date: 2020-04-01 17:24
 Slug: working-from-home-on-the-c-
 Cover: https://cdn.gtia.com/pics/2020/IIcwfh-2020-04-01-800x.jpeg
-Category: 
-Tags:
+Category: Hardware
+Tags: wfh,apple
 Status: published
 ...
 
