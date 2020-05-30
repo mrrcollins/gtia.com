@@ -1,11 +1,12 @@
 ---
 Title: WFH - PowerBook G4
-Author: gozar
+Author: goz
 Date: 2020-05-27 10:43
 Slug: wfh-powerbook-g4
 Category: Hardware
 Tags: mac,apple,wfh
 Status: published
+Cover: https://cdn.gtia.com/pics/2020/wfhPBG4-2020-05-27-800x.jpeg
 ---
 
 I didn't change out the [Mac SE/30](TK) for a couple of weeks, but for this week I dug out one of my favorite laptops, the Apple PowerBook G4.

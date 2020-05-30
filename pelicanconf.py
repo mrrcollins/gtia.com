@@ -15,7 +15,7 @@ TIMEZONE = 'America/New_York'
 
 MARKUP = (('rst', 'md', 'markdown'))
 
-AUTHOR = 'gozar'
+AUTHOR = 'goz'
 DEFAULT_DATE = 'fs'
 THEME = './theme/attila-goz'
 
@@ -61,8 +61,8 @@ LINKS = (
             )
 
 AUTHORS_BIO = {
-        "gozar": {
-            "name":"Ryan 'Gozar' Collins",
+        "goz": {
+            "name":"Ryan 'Goz' Collins",
             "website": "https://ryancollins.org",
             "image": "https://gtia.com/images/gozavatar.png",
             "location": "Earth",
