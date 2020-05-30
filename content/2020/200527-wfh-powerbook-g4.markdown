@@ -9,7 +9,7 @@ Status: published
 Cover: https://cdn.gtia.com/pics/2020/wfhPBG4-2020-05-27-800x.jpeg
 ---
 
-I didn't change out the [Mac SE/30](TK) for a couple of weeks, but for this week I dug out one of my favorite laptops, the Apple PowerBook G4.
+I didn't change out the [Mac SE/30](https://gtia.com/2020/04/27/work-from-home-continues-with-my-macintosh-se-30/) for a couple of weeks, but for this week I dug out one of my favorite laptops, the Apple PowerBook G4.
 
 ![PowerBook G4](https://cdn.gtia.com/pics/2020/wfhPBG4-2020-05-27-800x.jpeg)
 
