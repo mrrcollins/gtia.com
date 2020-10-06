@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Trying out Recalbox and Batocera</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="https://gtia.com/2020/10/05/trying-out-recalbox-and-batocera/" rel="canonical" />
+  <!-- Feed -->
+        <link href="https://gtia.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Atari and Retro Site of Goz Full Atom Feed" />
+
+  <link href="https://gtia.com/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://gtia.com/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="Today I decided to play around with the new version of Recalbox on one of my Raspberry Pis and Batocera on an old Intel Core 2 Duo Mac...">
+
+    <meta name="author" content="gozar">
+
+    <meta name="tags" content="recalbox">
+    <meta name="tags" content="batocera">
+    <meta name="tags" content="emulation">
+    <meta name="tags" content="emulationstation">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="The Atari and Retro Site of Goz"/>
+<meta property="og:title" content="Trying out Recalbox and Batocera"/>
+<meta property="og:description" content="Today I decided to play around with the new version of Recalbox on one of my Raspberry Pis and Batocera on an old Intel Core 2 Duo Mac..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://gtia.com/2020/10/05/trying-out-recalbox-and-batocera/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-10-05 20:31:00-04:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://gtia.com/author/gozar/">
+<meta property="article:section" content="Software"/>
+<meta property="article:tag" content="recalbox"/>
+<meta property="article:tag" content="batocera"/>
+<meta property="article:tag" content="emulation"/>
+<meta property="article:tag" content="emulationstation"/>
+<meta property="og:image" content="https://gtia.com//images/Atari800-header.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Trying out Recalbox and Batocera",
+  "headline": "Trying out Recalbox and Batocera",
+  "datePublished": "2020-10-05 20:31:00-04:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "gozar",
+    "url": "https://gtia.com/author/gozar/"
+  },
+  "image": "https://gtia.com//images/Atari800-header.jpg",
+  "url": "https://gtia.com/2020/10/05/trying-out-recalbox-and-batocera/",
+  "description": "Today I decided to play around with the new version of Recalbox on one of my Raspberry Pis and Batocera on an old Intel Core 2 Duo Mac..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="/about/" role="presentation">About</a></li>
+          <li><a href="/category/hardware/" role="presentation">Hardware</a></li>
+          <li><a href="/category/software/" role="presentation">Software</a></li>
+
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://gtia.com/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Trying out Recalbox and Batocera</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://gtia.com/author/gozar/">Gozar</a>
+            | <time datetime="Mon 05 October 2020">Mon 05 October 2020</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('https://gtia.com//images/Atari800-header.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>Today I decided to play around with the new version of <a href="https://www.recalbox.com/">Recalbox</a> on one of my Raspberry Pis and Batocera on an old Intel Core 2 Duo Mac mini.</p>
+<h2>Recalbox</h2>
+<p>First up was the Raspberry Pi. Setting up Recalbox was a piece of cake. I used <a href="https://www.balena.io/etcher/">balenaEtcher</a> to image a 32GB SD card and then booted up the machine. It took awhile to set up the card, but after it was done, I was ready to go. Recalbox sets up a <em>Share</em> partition on the card. When you put the SD card in to a computer, a drive shows up with that partition. Inside it is where you put the ROMs and BIOSes that Recalbox will need.</p>
+<p>My only issue with the install was when I went to use the composite out. I want to use the Recalbox on real CRTs, so I need the composite to work. The documentation for setting this up on the Recalbox site is missing. It looks like they are redoing their documentation. Luckily, I was able to <a href="https://web.archive.org/web/20190615013227/https://github.com/recalbox/recalbox-os/wiki/Connect-your-recalbox-to-a-CRT-with-composite-(EN)">track down the missing documention on Archive.org</a>. Using their directions I was able to get composite out working with Recalbox on my Raspberry Pi.</p>
+<p>I stuck the SD card into my computer and edited the file <code>/boot/config.txt</code> adding the following lines:</p>
+<div class="highlight"><pre><span></span><code><span class="err">sdtv_mode=2</span>
+<span class="err">hdmi_ignore_hotplug=1</span>
+<span class="err">audio_pwm_mode=2</span>
+</code></pre></div>
+
+
+<p>I then modified <code>recalbox.conf</code> changing <em>global.videomode</em> to default:</p>
+<div class="highlight"><pre><span></span><code><span class="err">global.videomode=default</span>
+</code></pre></div>
+
+
+<p>After a restart I was good to go! Unfortunately, the sound is pretty staticy, but that will be a problem to fix another day.</p>
+<p><img alt="Recalbox on a Pi3" src="https://cdn.gtia.com/pics/2020/Recalbox-2020-10-05-800x.jpeg"></p>
+<h2>Batocera</h2>
+<p>Next up was to see how the performance of an 11 year old Mac Mini would be under emulation. <a href="https://batocera.org/">Batocera</a> is weird for an install. By default, it runs only from the USB flash drive. To install it on the computer, you boot Batocera, and then in the menu, you can install it on the computer. Be sure there isn't anything you want on the drive of the computer, but it wipes it out! What's weird about this install is that it re-downloads Batocera as the first step in the process, drawing the process out.</p>
+<p>The Mac Mini was fine, although it struggled a lot more with Dreamcast games versus the RPi3. I'm still looking for a use for this old Mac Mini because the Pi is a better choice. The latency with 2600 games was noticable even for me. I don't know where or why that is. The Mac has a spinny hard drive and only 2GB of RAM, so maybe there is a bottleneck. I'll have to do some more research.</p>
+            </section>
+                <section>
+            <script src="https://utteranc.es/client.js"
+                repo="mrrcollins/gtiacomments"
+                issue-term="title"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+            </script>
+				</section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Trying out Recalbox and Batocera&amp;url=https://gtia.com/2020/10/05/trying-out-recalbox-and-batocera/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://gtia.com/2020/10/05/trying-out-recalbox-and-batocera/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://gtia.com/2020/10/05/trying-out-recalbox-and-batocera/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://gtia.com/tag/recalbox/">recalbox</a><a href="https://gtia.com/tag/batocera/">batocera</a><a href="https://gtia.com/tag/emulation/">emulation</a><a href="https://gtia.com/tag/emulationstation/">emulationstation</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://gtia.com/theme/js/script.js"></script>
+
+</body>
+</html>
